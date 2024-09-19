@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  background-color: #f4f4f9;
+}
+
+.container {
+  background-color: white;
+  max-width: 800px;
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+#add-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #3b82f6;
+}
+
+.primary-button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: #2563eb;
+}
+
+.primary-button:active {
+  background-color: #1d4ed8;
+}
+
+.close-button {
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: #b91c1c;
+}
+
+.close-button:active {
+  background-color: #991b1b;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contact-list__empty-message {
+  text-align: center;
+  color: #6b7280;
+}
+
+.contact-item {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.contact-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.contact-item .close-button {
+  margin-left: auto;
+  width: auto;
+  height: 32px;
+  aspect-ratio: 1/1;
+}
+
+.contact-item__text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: #6b7280;
+}

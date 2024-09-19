@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact App</title>
+    <script type="module" src="js/script.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Contact App</h1>
+
+      <section class="section-container">
+        <h2>Add New Contact</h2>
+
+        <form id="add-contact-form">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <button class="primary-button">Add</button>
+        </form>
+      </section>
+
+      <section class="section-container">
+        <h2>Contact List</h2>
+
+        <div class="contact-list">
+          <p class="contact-list__empty-message">You have no contacts yet.</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
