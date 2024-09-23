@@ -1,0 +1,22 @@
+.primary-button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: #2563eb;
+}
+
+.primary-button:active {
+  background-color: #1d4ed8;
+}
+
+.primary-button:disabled {
+  background-color: #4076ec;
+  cursor: not-allowed;
+}

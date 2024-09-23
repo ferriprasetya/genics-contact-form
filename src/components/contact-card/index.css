@@ -1,0 +1,47 @@
+.close-button {
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: #b91c1c;
+}
+
+.close-button:active {
+  background-color: #991b1b;
+}
+
+.contact-item {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.contact-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.contact-item .close-button {
+  margin-left: auto;
+  width: auto;
+  height: 32px;
+  aspect-ratio: 1/1;
+}
+
+.contact-item__text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: #6b7280;
+}
