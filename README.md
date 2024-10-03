@@ -1,8 +1,5 @@
 
 # Contact App with Next
-
-## See the demo at https://genics-contact-react-ferri.netlify.app
-
 ## Getting Started
 
 First, run the development server:
