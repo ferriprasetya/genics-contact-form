@@ -1,5 +1,20 @@
-# Simple Contact Form with Vanilla HTML, CSS and JS
-Use local storage to store data contacts
-- UI using plain HTML in `index.html` and CSS in `style.css`
-- `js/script.js` handle user interaction, action and events
-- `js/localStorage.js` handle local storage interaction
+
+# Contact App with Next
+
+## See the demo at https://genics-contact-react-ferri.netlify.app
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
