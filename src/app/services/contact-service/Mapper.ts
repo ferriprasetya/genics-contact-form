@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { Contact } from "@/app/types/Contact";
 
 export const mapContactListDataFromApi = ({ data }: any): Contact[] => {

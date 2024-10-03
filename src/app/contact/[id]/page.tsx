@@ -1,7 +1,6 @@
 "use client";
 
 import Loading from "@/app/components/Loading";
-import PrimaryButton from "@/app/components/PrimaryButton";
 import { getDetailContact } from "@/app/services/contact-service/ApiService";
 import { Contact } from "@/app/types/Contact";
 import Image, { ImageLoaderProps } from "next/image";
